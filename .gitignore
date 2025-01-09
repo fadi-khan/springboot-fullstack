@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+#keys
+/C2PrivateKey/**
+/C2PrivateKey
+/C2PrivateKey/
