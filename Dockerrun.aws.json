@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "fahadkhan-api",
+      "image": "fadialfa/fahadkhan-api:latest",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        }
+      ],
+      "environment": [
+        {
+          "name": "SPRING_DATASOURCE_URL",
+          "value": "jdbc:mysql://awseb-e-nypzzixjr5-stack-awsebrdsdatabase-2i15mcyjebjx.c324o6e08lrr.ap-south-1.rds.amazonaws.com:3306/fullstack_development"
+        }
+      ]
+    }
+  ]
+}
