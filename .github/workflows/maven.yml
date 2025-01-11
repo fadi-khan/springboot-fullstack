@@ -22,6 +22,7 @@ jobs:
       mysql:
         image: mysql:8.0
         env:
+          MYSQL_ROOT_PASSWORD: root
           MYSQL_PASSWORD: 123456
           MYSQL_USER: fahadkhan
           MYSQL_DATABASE: fullstack_development
