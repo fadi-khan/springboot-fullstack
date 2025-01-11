@@ -31,8 +31,7 @@ public class CustomerJdbcDao implements CustomerService {
     public Optional<Customer> getCustomerById(int id) {
 
 
-       var sqlScript="select * from customers where fullmark=?";
-
+       var sqlScript="select * from customers where customer_id=?";
 
         return jdbcTemplate.query(sqlScript,customerRowMapper,id).stream().findFirst();
 
