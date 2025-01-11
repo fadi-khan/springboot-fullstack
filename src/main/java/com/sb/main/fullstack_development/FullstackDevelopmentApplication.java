@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FullstackDevelopmentApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(FullstackDevelopmentApplication.class, args);
+        System.out.println("Hello World!");
+
     }
 
 }
