@@ -25,7 +25,7 @@ public class CustomerIntegrationTest {
     void canRegisterACustomer() {
 
 
-        String email= "bachOp3.buff@gmail.com";
+        String email= "bachOp53.buff@gmail.com";
 
         Customer customer = new Customer(
                 "gulabo",
