@@ -26,8 +26,8 @@ jobs:
           MYSQL_PASSWORD: 123456
           MYSQL_USER: fahadkhan
           MYSQL_DATABASE: fullstack_development
-        ports:
-          - 3306:3306
+        # ports:
+        #   - 3306:3306
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
